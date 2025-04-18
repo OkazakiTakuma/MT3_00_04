@@ -1,11 +1,10 @@
 ﻿#pragma once
-#include"Vector3.h"
+#include "Vector3.h"
 /// <summary>
 /// 4x4の行列
 /// </summary>
 struct Matrix4x4 {
 	float m[4][4];
-	
 };
 
 // 行列の加法
